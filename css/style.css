@@ -1,0 +1,175 @@
+
+@font-face {
+    font-family: "Ubuntu-B";
+    src: url("../fonts/Ubuntu-B.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Ubuntu-BI";
+    src: url("../fonts/Ubuntu-BI.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Ubuntu-M";
+    src: url("../fonts/Ubuntu-M.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Ubuntu-RI";
+    src: url("../fonts/Ubuntu-RI.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Ubuntu-R";
+    src: url("../fonts/Ubuntu-R.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    background-color: #e0efca;
+}
+section {
+    box-sizing: border-box;
+    max-width: 970px;
+    width: 100%;
+    margin: 200px auto;
+    border: 1px solid #000;
+    padding-top: 105px;
+    padding-right: 10px;
+    padding-left: 50px;
+    background-color: #fff;
+}
+.caption {
+    max-width: 915px;
+    background-color: #423f30;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 5px;
+}
+.inform-box {
+    width: 307px;
+}
+.top-form {
+    padding-right: 144px;
+    margin-bottom: 28px;
+}
+.top-form:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.right-side{
+    float: right;
+}
+.left-side{
+    float: left;
+}
+.inform-box:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+span {
+    font-family: Ubuntu-B;
+    font-size: 13px;
+    color: #fff;
+}
+h2 {
+    font-family: Ubuntu-BI;
+    color: #646464;
+    font-size: 18px;
+}
+h3 {
+    font-family: Ubuntu-M;
+    color: #646464;
+    font-size: 13px;
+ }
+p {
+    font-family: Ubuntu-RI;
+    color: #a2a2a2;
+    font-size: 12px;
+}
+.inform-form {
+    margin-top: 15px;
+}
+label {
+    display: block;
+    font-family: Ubuntu-M;
+    color: #423f30;
+    font-size: 13px;
+}
+input, select {
+    margin-bottom: 17px;
+    display: block;
+    width: 304px;
+    height: 20px;
+    border: 1px solid #acacac;
+}
+.button-div {
+    margin-top: 8px;
+    box-sizing: border-box;
+    float: right;
+}
+button {
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Ubuntu-R;
+    font-size: 13px;
+    text-align: center;
+    background-color: #ebc738;
+    color: #fff;
+}
+.pswrd {
+    width: 127px;
+}
+.mid {
+    margin-top: 25px;
+}
+.conf2 {
+    margin-bottom: 15px;
+}
+.State {
+    display: block;
+    width: 304px;
+    height: 20px;
+    border: 1px solid #acacac;
+}
+.code {
+    width: 120px;
+}
+
+
+
+.ui-datepicker-header {
+    background-color: #a9ca44!important;
+}
+
+.ui-state-active {
+    background-color: #a9ca44!important;
+}
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-button:hover .ui-icon,
+.ui-button:focus .ui-icon,.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+    background-color: #a9ca44 !important;
+}
+.ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+    border: none !important;
+}
+.ui-datepicker  th{
+    background-color: #dddddd;
+}
+.ui-state-default, .ui-widget-content .ui-state-default{
+    border: none;
+    background-color: #fff;
+}
+.ui-state-default, .ui-widget-content .ui-state-default:hover{
+    background-color: #dddddd;
+}
+.ui-datepicker th span{
+    color: #5c5c5c!important;
+}
+

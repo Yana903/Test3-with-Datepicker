@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Datepicker - Default functionality</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#datepicker" ).datepicker();
+        } );
+    </script>
+</head>
+<body>
+    <section>
+        <div class="caption">
+            <span>CHANGE ACCOUNT INFORMATION</span>
+        </div>
+        <div class="top-form">
+             <div class="inform-box left-side">
+                <h2>Change Email</h2>
+                <h3>Current Email</h3>
+                <p>felix@Cuberelief.com</p>
+                <form class="inform-form" name="mail" action="" method="post">
+                    <label>New Email</label>
+                    <input type="text" name="mail">
+                    <label>Confirm New Email</label>
+                    <input type="text" name="mail">
+                <div class="button-div">
+                    <button type="submit">Update Email</button>
+                </div>
+                </form>
+            </div>
+            <div class="inform-box right-side">
+                <h2>Change Password</h2>
+                <form class="inform-form" name="mail" action="" method="post">
+                    <label>Old Password</label>
+                    <input type="text" name="mail">
+                    <label>New Password</label>
+                    <input type="text" name="mail">
+                    <label>Confirm New Password</label>
+                    <input type="text" name="mail">
+                    <div class="button-div">
+                        <button class="pswrd" type="submit">Update Password</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="caption">
+            <span>BILLING INFORMATION/CONTACT INFORMATION</span>
+        </div>
+        <div class="top-form">
+            <div class="inform-box left-side">
+                <form class="inform-form" name="mail" action="" method="post">
+                    <label>First name</label>
+                    <input type="text" name="F-name">
+                    <label>Last name</label>
+                    <input type="text" name="L-name">
+                    <label>Street address</label>
+                    <input type="text" name="addr">
+                    <input type="text" name="addr">
+                    <label>Phone</label>
+                    <input type="text" name="phone">
+                </form>
+            </div>
+            <div  class="inform-box right-side">
+                <form class="inform-form" name="mail" action="" method="post">
+                    <label>Last name</label>
+                    <input type="text" name="L-name">
+                    <label>Last name</label>
+                    <input type="text" name="L-name">
+                    <label>City</label>
+                    <input type="text" name="mail">
+                    <label>State</label>
+                    <select>
+                        <option>State1</option>
+                        <option>State2</option>
+                    </select>
+                    <label>Country</label>
+                    <select>
+                        <option>Country1</option>
+                        <option>Country2</option>
+                    </select>
+                    <label>Zip code</label>
+                    <input class="code" type="text" name="code">
+
+                </form>
+            </div>
+        </div>
+        <div class="caption">
+            <span>MEDICAL DETAILS</span>
+        </div>
+        <div class="top-form">
+            <div class="inform-box left-side">
+                <form class="inform-form" name="doctor" action="" method="post">
+                    <label>Doctor Name</label>
+                    <input type="text" name="Doctor">
+                    <label>Doctor Clinic Name</label>
+                    <input type="text" name="Clinic">
+                    <label>Street address</label>
+                    <input type="text" name="addr">
+                    <input type="text" name="addr">
+                    <label>State</label>
+                    <select>
+                        <option>State1</option>
+                        <option>State2</option>
+                    </select>
+                    <label>Verification Website</label>
+                    <input type="text" name="phone">
+                    <div class="button-div">
+                        <button class="pswrd" type="submit">REGISTRATION</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <p>Recommendation Date: <input type="text" id="datepicker"></p>
+    </section>
+</body>
+</html>
