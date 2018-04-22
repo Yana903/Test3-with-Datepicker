@@ -108,6 +108,7 @@ input, select {
     width: 304px;
     height: 20px;
     border: 1px solid #acacac;
+    border-radius: 6px;
 }
 .button-div {
     margin-top: 8px;
